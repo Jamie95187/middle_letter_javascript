@@ -4,6 +4,8 @@ function MiddleLetter(){
 MiddleLetter.prototype.findMiddle = function(word){
   if(word.length < 3){
     return word;
+  } else {
+    return 'a';
   };
 };
 

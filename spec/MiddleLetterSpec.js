@@ -7,11 +7,15 @@ describe("MiddleLetter", function(){
 
   it("should return 'A'", function(){
     expect(middleLetter.findMiddle('A')).toEqual('A');
-  })
+  });
 
   it("should return 'of'", function(){
     expect(middleLetter.findMiddle('of')).toEqual('of');
-  })
+  });
+
+  it("should return 'a'", function(){
+    expect(middleLetter.findMiddle('car')).toEqual('a');
+  });
 })
 
 // get_middle("test") # => "es"
