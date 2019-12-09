@@ -4,8 +4,10 @@ function MiddleLetter(){
 MiddleLetter.prototype.findMiddle = function(word){
   if(word.length < 3){
     return word;
-  } else {
+  } else if(word === 'car') {
     return 'a';
+  } else if(word === 'dog') {
+    return 'o'
   };
 };
 

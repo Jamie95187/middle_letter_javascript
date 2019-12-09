@@ -16,7 +16,12 @@ describe("MiddleLetter", function(){
   it("should return 'a'", function(){
     expect(middleLetter.findMiddle('car')).toEqual('a');
   });
-})
+
+  it("should return 'o'", function(){
+    expect(middleLetter.findMiddle('dog')).toEqual('o');
+  });
+
+});
 
 // get_middle("test") # => "es"
 // get_middle("testing") # => "t"
