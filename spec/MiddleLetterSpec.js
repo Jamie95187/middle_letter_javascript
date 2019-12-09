@@ -21,6 +21,10 @@ describe("MiddleLetter", function(){
     expect(middleLetter.findMiddle('dog')).toEqual('o');
   });
 
+  it("should return 'k'", function(){
+    expect(middleLetter.findMiddle('sky')).toEqual('k');
+  });
+
 });
 
 // get_middle("test") # => "es"
