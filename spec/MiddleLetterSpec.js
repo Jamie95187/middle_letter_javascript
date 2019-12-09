@@ -29,6 +29,10 @@ describe("MiddleLetter", function(){
     expect(middleLetter.findMiddle('ply')).toEqual('l');
   });
 
+  it("should return 'es'", function(){
+    expect(middleLetter.findMiddle('test')).toEqual('es');
+  });
+
 });
 
 // get_middle("test") # => "es"
