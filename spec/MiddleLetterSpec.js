@@ -25,6 +25,10 @@ describe("MiddleLetter", function(){
     expect(middleLetter.findMiddle('sky')).toEqual('k');
   });
 
+  it("should return 'l'", function(){
+    expect(middleLetter.findMiddle('ply')).toEqual('l');
+  });
+
 });
 
 // get_middle("test") # => "es"
