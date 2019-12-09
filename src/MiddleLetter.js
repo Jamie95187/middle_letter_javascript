@@ -2,12 +2,10 @@ function MiddleLetter(){
 
 }
 MiddleLetter.prototype.findMiddle = function(word){
-  if(word === 'A'){
-    return 'A'
-  } else if(word === 'of'){
-    return 'of'
-  }
-}
+  if(word.length < 3){
+    return word;
+  };
+};
 
 // Your job is to return the middle character of a word.
 // If the word's length is odd, return the middle character.
