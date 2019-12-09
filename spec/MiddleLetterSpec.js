@@ -8,6 +8,10 @@ describe("MiddleLetter", function(){
   it("should return 'A'", function(){
     expect(middleLetter.findMiddle('A')).toEqual('A');
   })
+
+  it("should return 'of'", function(){
+    expect(middleLetter.findMiddle('of')).toEqual('of');
+  })
 })
 
 // get_middle("test") # => "es"
