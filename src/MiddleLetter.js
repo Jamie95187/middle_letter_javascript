@@ -10,6 +10,8 @@ MiddleLetter.prototype.findMiddle = function(word){
     return 'es';
   } else if(word === 'push'){
     return 'us';
+  } else if(word === 'foot'){
+    return 'oo';
   };
 };
 

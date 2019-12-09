@@ -37,6 +37,10 @@ describe("MiddleLetter", function(){
     expect(middleLetter.findMiddle('push')).toEqual('us');
   });
 
+  it("should return 'oo'", function(){
+    expect(middleLetter.findMiddle('foot')).toEqual('oo');
+  });
+
 });
 
 // get_middle("test") # => "es"
